@@ -3,8 +3,6 @@
 **/*.rs.bk
 
 # Environment & secrets — NEVER commit these
-.env
-.env.*
 !.env.example
 *.key
 *.pem
@@ -13,7 +11,6 @@ master.key
 
 # Editor / OS
 .idea/
-.vscode/*
 !.vscode/extensions.json
 .DS_Store
 
@@ -23,7 +20,11 @@ master.key
 
 CLAUDE.md
 PLAN.md
+FUTURE_FIXES.md
+SCF_APPLICATION.md
 tasks/
 
 # Keep reference material out of release artifacts but tracked
 # (reference/ is intentionally NOT ignored)
+config.bat
+node_modules
